@@ -3,43 +3,37 @@ import React, { Component } from 'react';
 import './App.css';
 import './Custom.css';
 import Logo from './Logo'
+import Category from './Category'
+import Prodcts from './Prodcts'
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
       <div className="header">
-        <h2 title ="Logo"><Logo name="Mage React"/></h2>
+        <h2 title="Logo"><Logo name="Magento2 Modules "/></h2>
         </div>
 
         <div className="row">
         <div className="col-3 menu">
-          <ul>
-            <li>Cat 1</li>
-            <li>Cat 2</li>
-            <li>Cat 3</li>
-            <li>Cat 4</li>
-            <li>Cat 5</li>
-          </ul>
+        <Category />
         </div>
         <div className="col-9 menu">
 
-        <div><img src="http://127.0.0.1/php/mage-react/src/Banner.png" height="400" alt={"Banner"} /></div>
+        <div><img className="bannerImage" src="http://127.0.0.1/php/mage-react/src/Banner.png" height="400" alt={"Banner"} /></div>
         </div>
 
         <div className="col-12">
-          <h1>Product Collection</h1>
-            <div className="col-3 menu">Prod 1</div>
-            <div className="col-3 menu">Prod 2</div>
-            <div className="col-3 menu">Prod 3</div>
-            <div className="col-3 menu">Prod 4</div>
+          <h1>Product Collection{1+1}</h1>
+           <Prodcts name="product name" />
         </div>
 
 
         <div className="col-12 footerclass">
         <div className="footerclass">
         <div className="col-3">
-          <ul>
+         <ul>
             <li>Cat 1</li>
             <li>Cat 2</li>
             <li>Cat 3</li>

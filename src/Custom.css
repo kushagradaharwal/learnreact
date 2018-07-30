@@ -47,4 +47,5 @@ html {
 }
 .footerclass{    background-color: #9933cc;
     color: #ffffff;}
-.footerclass ul{list-style: none;}    
+.footerclass ul{list-style: none;}
+.bannerImage{ width: 100%}
